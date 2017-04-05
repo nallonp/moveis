@@ -1,0 +1,9 @@
+~ 									- atalho para seu diretório.
+git add teste.txt					- rastrear modificações no arquivo.
+git init 							- inicializa repositório.
+git log 							- verificar histórico de commits.
+git commit -m "Mensagem"			- gravar alteração no repositório.
+git remote add origin "https://"	- apontar origin para o repositório do github.
+git push origin master				- enviar alterações para o repositório remoto.
+git clone "https://"				- clonar repositório remoto para pasta local.
+git commit -am "Mensagem"			- rastrear e comitar ao mesmo tempo.
