@@ -7,3 +7,8 @@ git remote add origin "https://"	- apontar origin para o repositório do github.
 git push origin master				- enviar alterações para o repositório remoto.
 git clone "https://"				- clonar repositório remoto para pasta local.
 git commit -am "Mensagem"			- rastrear e comitar ao mesmo tempo.
+git log								- verificar o histórico de alterações gravadas no repositório.
+git log	--oneline					- mesmo que acima, de uma forma resumida.
+git log --stat						- estatísticas de linhas alteradas.
+
+
