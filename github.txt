@@ -17,3 +17,5 @@ git diff 												- exibe as alterações ainda não rastreadas.
 git diff --staged										- exibe as alterações que estão na área de stag.
 git diff d9e1d6e										- exibe todas as alterações de um repositório a partir do seu código.
 git diff 05ee5fa 6d6ad4d d9e1d6e | git diff 05ee5fa~2	- exibe todas as alterações entre commits específicos.
+git rm file.txt                                         - remove arquivos do projeto.
+git mv estilos.css principal.css                        - renomeia arquivo.
