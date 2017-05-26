@@ -11,4 +11,8 @@ git clone "https://"				- clonar repositório remoto para pasta local.
 git commit -am "Mensagem"			- rastrear e comitar ao mesmo tempo.
 git log								- verificar o histórico de alterações gravadas no repositório.
 git log	--oneline					- mesmo que acima, de uma forma resumida.
-git log --stat						- estatísticas de linhas alteradas.
+git log --stat						- estatísticas de linhas alteradas.clear
+git log -n 1 --oneline				- exibe o resumo da última alteração gravada no repositório.
+git diff 							- exibe as alterações ainda não rastreadas.
+git diff --staged					- exibe as alterações que estão na área de stag.
+git diff d9e1d6e					- exibe todas as alterações de um repositório a partir do seu código.
