@@ -19,3 +19,7 @@ git diff d9e1d6e										- exibe todas as alterações de um repositório a par
 git diff 05ee5fa 6d6ad4d d9e1d6e | git diff 05ee5fa~2	- exibe todas as alterações entre commits específicos.
 git rm file.txt                                         - remove arquivos do projeto.
 git mv estilos.css principal.css                        - renomeia arquivo.
+git checkout -- index.html                              - desfaz mudanças não rastreadas.
+git reset -- file.txt                                   - remove arquivo da área de stage.
+git reset --hard                                        - remove todos os arquivos da área de stage e desfaz as alterações.
+git revert --no-edit fe23cfe                            - reverte todas as alterações já comitadas sem mensagem de commit. É possível desfazer uma mudança realizada em um commit anterior passando o código desse commit.
