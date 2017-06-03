@@ -23,3 +23,20 @@ git checkout -- index.html                              - desfaz mudanças não 
 git reset -- file.txt                                   - remove arquivo da área de stage.
 git reset --hard                                        - remove todos os arquivos da área de stage e desfaz as alterações.
 git revert --no-edit fe23cfe                            - reverte todas as alterações já comitadas sem mensagem de commit. É possível desfazer uma mudança realizada em um commit anterior passando o código desse commit.
+git init --bare moveis-ecologicos.git					- criação de repositório remoto sem área de trabalho.
+git remote -v											- exibe nomes e urls dos repositórios remotos.
+git remote add servidor									- adicionar repositório remoto.
+	//10.138.45.158/git/moveis-ecologicos.git
+git remote set-url servidor								- alterar a URL do repositório remoto.
+	//10.138.45.158/git/moveis-ecologicos.git	
+git remote remove local									- remover local.
+git remote rename servidor casdet						- renomear local.
+git clone //10.138.45.158/git/moveis-ecologicos.git		- clonar um repositório remoto para uma área de trabalho local.
+git pull servidor master								- sincronizar o repositório local com o servidor.
+git clone file://D:/dev/git/moveis-ecologicos.git/		- protocolo Local: usado em transferências de arquivos entre computadores da mesma rede.
+git clone 												- protocolo SSH: geralmente o mais utilizado. Tem a capacidade de realizar leitura e escrita.
+	root@10.10.10.10:/dev/git/moveis-ecologicos.git/		
+git clone 												- protocolo git: Similar ao SSH mas não possui autenticação. Por esse motivo é mais rápido mas não apresenta segurança, sendo ideal apenas para gravação.
+	git://10.10.10.10/dev/git/moveis-ecologicos.git/
+git clone 												- protocolo HTTPS: Bastante utilizado quando a porta 22 não está disponível.
+	https://10.10.10.10/dev/git/moveis-ecologicos.git/
