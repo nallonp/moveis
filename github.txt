@@ -40,10 +40,12 @@ git clone 												- protocolo git: Similar ao SSH mas não possui autentica�
 	git://10.10.10.10/dev/git/moveis-ecologicos.git/
 git clone 												- protocolo HTTPS: Bastante utilizado quando a porta 22 não está disponível.
 	https://10.10.10.10/dev/git/moveis-ecologicos.git/
-<<<<<<< HEAD
 git branch --no-merged									- exibe os repositórios que ainda não foram mesclados.
-=======
 git branch -v											- lista os branches do repositório com os commits associados.
 git checkout design										- mudar de branch.
-git checkout -b loja									- criar novo branch e mudar pra ele ao mesmo tempo.
->>>>>>> design
+git checkout -b loja								 	- criar novo branch e mudar pra ele ao mesmo tempo.
+git rebase design										- simplifica o histórico de merges em repositórios com muitos branches.
+git push origin design									- envia para o remote origin os commits da branch design.
+git checkout -b design origin/design					- checkout de uma branch remota para uma branch local.
+	ou git checkout -t origin/design
+git fetch origin										- traz commits de um repositório remoto para o repositório local.
