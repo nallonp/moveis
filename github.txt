@@ -40,3 +40,4 @@ git clone 												- protocolo git: Similar ao SSH mas não possui autentica�
 	git://10.10.10.10/dev/git/moveis-ecologicos.git/
 git clone 												- protocolo HTTPS: Bastante utilizado quando a porta 22 não está disponível.
 	https://10.10.10.10/dev/git/moveis-ecologicos.git/
+git branch --no-merged									- exibe os repositórios que ainda não foram mesclados.
